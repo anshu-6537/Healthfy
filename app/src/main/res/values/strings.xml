@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Healthfy</string>
+    <string name="sign_up_with_email">Sign up with email</string>
+    <string name="or_use_social_sign_up">or use social sign up</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="log_in">Log in</string>
+    <string name="title_activity_after_pager">afterPager</string>
+    <string name="title_home">Today</string>
+    <string name="title_dashboard">Diet Plan</string>
+    <string name="title_notifications">BMI</string>
+    <string name="not_registered_yet_sign_up">Not Registered Yet , Sign Up !</string>
+    <string name="sign_in">Sign In</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="retype_your_password">Retype Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_registered_sign_in">Already Registered , Sign In !</string>
+    <string name="enter_your_details">Enter your details</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="submit">Submit</string>
+</resources>

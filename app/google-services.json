@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484417362748",
+    "firebase_url": "https://diet-plan-deb9c-default-rtdb.firebaseio.com",
+    "project_id": "diet-plan-deb9c",
+    "storage_bucket": "diet-plan-deb9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484417362748:android:cec6f6511473658c631c39",
+        "android_client_info": {
+          "package_name": "com.example.healthfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484417362748-ae09jf7jqsdpjgc9eehlmdd9o9i45rvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Hdn9a3JlgfBgDRDVYi6AMTvHMGij3Y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484417362748-ae09jf7jqsdpjgc9eehlmdd9o9i45rvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
