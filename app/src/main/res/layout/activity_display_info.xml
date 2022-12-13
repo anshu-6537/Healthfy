@@ -83,7 +83,7 @@
         app:layout_constraintTop_toBottomOf="@+id/displayage"
         android:layout_marginTop="55dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="20dp"
+
         android:text="Your BMI"
         android:textSize="25sp"
         android:textAlignment="center"
@@ -100,5 +100,17 @@
         android:layout_marginTop="15dp"
         android:textSize="25sp"
         android:hint="bmi"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Diet Plan"
+        android:textAllCaps="false"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toBottomOf="@id/displaybmi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

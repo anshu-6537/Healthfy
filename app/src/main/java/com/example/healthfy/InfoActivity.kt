@@ -26,9 +26,9 @@ class InfoActivity : AppCompatActivity() {
             val intent = Intent(this, displayInfo::class.java)
 
             intent.putExtra(displayInfo.name, name.text.toString())
-            intent.putExtra("age", age.text.toString())
-            intent.putExtra("height", height.text.toString())
-            intent.putExtra("weight", weight.text.toString())
+            intent.putExtra(displayInfo.age, age.text.toString())
+            intent.putExtra(displayInfo.height, height.text.toString())
+            intent.putExtra(displayInfo.weight, weight.text.toString())
             //Toast.makeText(this,height.text.toString(),Toast.LENGTH_LONG).show()
 
             startActivity(intent)
