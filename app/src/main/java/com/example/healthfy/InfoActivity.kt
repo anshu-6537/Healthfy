@@ -23,12 +23,12 @@ class InfoActivity : AppCompatActivity() {
         val btn_click_me = findViewById<Button>(R.id.submit)
         //Toast.makeText(this,,Toast.LENGTH_SHORT).show()
         btn_click_me.setOnClickListener {
-            val intent = Intent(this, displayInfo::class.java)
+            val intent = Intent(this, seekBar::class.java)
 
             intent.putExtra(displayInfo.name, name.text.toString())
             intent.putExtra(displayInfo.age, age.text.toString())
-            intent.putExtra(displayInfo.height, height.text.toString())
-            intent.putExtra(displayInfo.weight, weight.text.toString())
+            //intent.putExtra(displayInfo.height, height.text.toString())
+            //intent.putExtra(displayInfo.weight, weight.text.toString())
             //Toast.makeText(this,height.text.toString(),Toast.LENGTH_LONG).show()
 
             startActivity(intent)
